@@ -8,7 +8,8 @@ keymap.set("i", "jk", "<ESC>")
 
 keymap.set("n", "<leader>sv", "<C-w>v")
 keymap.set("n", "<leader>sh", "<C-w>s")
-
+-- close windows leader sx
+keymap.set("n", "<leader>sx", ":close<CR>")
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
