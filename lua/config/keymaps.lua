@@ -13,3 +13,8 @@ keymap.set("n", "<leader>sx", ":close<CR>")
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
+-- 全选（Normal 模式）
+keymap.set("n", "<leader>sa", "ggVG", { desc = "Select all" })
+
+-- 全选并复制到系统剪贴板
+keymap.set("n", "<leader>sy", 'ggVG"+y', { desc = "Select all and copy to clipboard" })
